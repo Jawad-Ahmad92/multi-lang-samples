@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Drink Empire - Premium Chilled Beverages & Global Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2><i class="fas fa-snowflake"></i> Cold Drink Empire</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#delivery">Delivery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Refresh Your World with Cold Drink Empire</h1>
+            <p>Premium chilled beverages delivered fresh to your door—anywhere in the world.</p>
+            <button class="cta-btn" onclick="scrollToSection('products')">Shop Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/600x400?text=Cold+Drinks" alt="Chilled Beverages">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Premium Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Juice" alt="Fresh Juice">
+                <h3>Fresh Juices</h3>
+                <p>Organic, chilled juices from around the globe. Starting at $2.99.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Soda" alt="Sodas">
+                <h3>Chilled Sodas</h3>
+                <p>Classic and exotic flavors, ice-cold delivery. Starting at $1.49.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Energy+Drinks" alt="Energy Drinks">
+                <h3>Energy Boosters</h3>
+                <p>Revitalizing drinks for your active lifestyle. Starting at $3.49.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Custom+Packs" alt="Custom Packs">
+                <h3>Custom Packs</h3>
+                <p>Tailor your own bundle of favorites. Starting at $10.99.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Section -->
+    <section id="delivery" class="delivery">
+        <h2>Global Delivery System</h2>
+        <p>We deliver fresh, chilled drinks nationwide and internationally with temperature-controlled packaging.</p>
+        <div class="delivery-options">
+            <div class="option">
+                <i class="fas fa-truck"></i>
+                <h3>Local Delivery (Within Country)</h3>
+                <p>Fast 1-2 hour delivery in major cities. Free for orders over $20. Partners: Local couriers like [Your Local Service].</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-globe"></i>
+                <h3>International Delivery</h3>
+                <p>Ships to 100+ countries. 3-7 days with insulated coolers. Duties and fees apply. Partners: DHL, FedEx.</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Subscription Service</h3>
+                <p>Weekly/monthly deliveries. Save 15% on recurring orders. Track everything via our app.</p>
+            </div>
+        </div>
+        <button class="cta-btn">Calculate Shipping</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Cold Drink Empire</h2>
+        <p>Founded in [Your Year], we're a leading beverage company serving millions with high-quality, chilled drinks. Our state-of-the-art cold chain ensures every sip is refreshing. Committed to sustainability, we use eco-friendly packaging.</p>
+        <div class="stats">
+            <div><h3>50M+</h3><p>Drinks Delivered</p></div>
+            <div><h3>100+</h3><p>Countries Served</p></div>
+            <div><h3>99.9%</h3><p>Customer Satisfaction</p></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +1-XXX-XXX-XXXX</p>
+            <p><i class="fas fa-envelope"></i> info@colddrinkempire.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> [Your Address], [Your City], [Your Country]</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Cold Drink Empire. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
