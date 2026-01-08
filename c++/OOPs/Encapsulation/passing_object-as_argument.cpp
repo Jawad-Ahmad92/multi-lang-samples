@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+ 
 class Travel{
     private:
     int km,hr;
@@ -19,7 +20,7 @@ class Travel{
         cout<<"you traveled: "<<km<<"km"<<" in "<<hr<<"hourse "<<endl;
 
     }
-    Travel add(Travel p){  //p is a parameter
+    Travel add(Travel p){  //p receives a copy of the object passed (your)
         Travel T;   //T is object inside function
         T.km=km+p.km;
         T.hr=hr+p.hr;
