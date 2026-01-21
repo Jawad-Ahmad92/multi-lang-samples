@@ -7,7 +7,7 @@ int main() {
     *y = 20;
 
     cout << "x = " << x << endl;     // prints 10
-    cout << "y = " << *y << endl;    // prints 20
+    cout << "*y = " << *y << endl;    // prints 20
 
     delete y;  // free heap memory
 }
