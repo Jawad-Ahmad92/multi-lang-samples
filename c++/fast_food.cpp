@@ -1,24 +1,23 @@
-//Initial Output (always shown first):
+// Initial Output (always shown first):
 //	Menu:
-//p = Pizza ($15.50)
-//b = Burger ($9.50)
-//c = Chicken ($19.99)
-//r = Bread Stick ($7.20)
-//d = Drinks ($4.15)
-//h = Hotdog ($2.30)
-//E = Exit and show bill
+// p = Pizza ($15.50)
+// b = Burger ($9.50)
+// c = Chicken ($19.99)
+// r = Bread Stick ($7.20)
+// d = Drinks ($4.15)
+// h = Hotdog ($2.30)
+// E = Exit and show bill
 //
-//Enter item letter: p
-//Enter item letter: b
-//Enter item letter: d
-//Enter item letter: e
+// Enter item letter: p
+// Enter item letter: b
+// Enter item letter: d
+// Enter item letter: e
 //
-//Exiting order...
+// Exiting order...
 //
-//Number of items: 3
-//Total bill: $29.15
-//Thank you! Enjoy your meal!
-
+// Number of items: 3
+// Total bill: $29.15
+// Thank you! Enjoy your meal!
 
 #include <iostream>
 #include <string>
@@ -48,38 +47,54 @@ int main()
     cout << "E = Exit and show bill\n\n";
 
     // menu display using loops
-    do {
+    do
+    {
         cout << "\nEnter item letter: ";
         cin >> itemletter;
 
-        price = 0;  // reset for each choice
+        price = 0; // reset for each choice
 
-        switch(itemletter) {
-            case 'p': case 'P':
-                price = pizza; break;
-            case 'b': case 'B':
-                price = burger; break;
-            case 'c': case 'C':
-                price = chiken; break;
-            case 'r': case 'R':
-                price = bread_stick; break;
-            case 'd': case 'D':
-                price = drinks; break;
-            case 'h': case 'H':
-                price = hotdog; break;
-            case 'e': case 'E':
-                cout << "\nExiting order...\n"; 
-                break;
-            default:
-                cout << "Invalid option!\n";
+        switch (itemletter)
+        {
+        case 'p':
+        case 'P':
+            price = pizza;
+            break;
+        case 'b':
+        case 'B':
+            price = burger;
+            break;
+        case 'c':
+        case 'C':
+            price = chiken;
+            break;
+        case 'r':
+        case 'R':
+            price = bread_stick;
+            break;
+        case 'd':
+        case 'D':
+            price = drinks;
+            break;
+        case 'h':
+        case 'H':
+            price = hotdog;
+            break;
+        case 'e':
+        case 'E':
+            cout << "\nExiting order...\n";
+            break;
+        default:
+            cout << "Invalid option!\n";
         }
 
-        if(price > 0) {   // valid item
+        if (price > 0)
+        { // valid item
             numitem++;
             total += price;
         }
 
-    } while(itemletter != 'E' && itemletter != 'e');
+    } while (itemletter != 'E' && itemletter != 'e');
 
     // display result
     cout << "\nNumber of items: " << numitem << endl;
