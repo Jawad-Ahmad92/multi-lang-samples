@@ -4,7 +4,7 @@ int main()
 {
 
 	int arr[10], max, min;
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 5; i++)
 	{
 		cout << "enter value:";
 		cin >> arr[i];
