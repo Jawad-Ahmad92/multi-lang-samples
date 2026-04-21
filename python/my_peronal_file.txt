@@ -1,0 +1,4 @@
+name:jawad
+university:awkum
+departent:computer science
+father_name:Muhammad Naeem

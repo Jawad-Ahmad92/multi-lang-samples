@@ -1,0 +1,4 @@
+name:ijaz
+department:dvm
+village:totali
+hotel:smart
