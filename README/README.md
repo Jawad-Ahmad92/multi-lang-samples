@@ -4,9 +4,11 @@ This repository contains simple and beginner-friendly code samples
 in multiple programming languages.
 
 Languages included:
+
 - Python (basic concepts and examples)
 - C++ (fundamental programs)
 - HTML & CSS (basic web structure)
+  -sql
 
 Purpose:
 This repository is created to help students and beginners
